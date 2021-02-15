@@ -1,7 +1,11 @@
-body{
+html,body{
     background-repeat:no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
     background-color: aqua;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
 }
